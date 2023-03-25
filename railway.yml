@@ -7,4 +7,4 @@ dockerfile_path: ./Dockerfile
   ports:
     - "80:5055/tcp"
     - "80:5055/udp"
-    - 8082:8082
+    - 8082:443
