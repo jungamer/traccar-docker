@@ -1,0 +1,10 @@
+version: '1.0'
+name: traccar
+services:
+  app:
+    build: .
+    env:
+      TZ: Asiz/Shanghai
+    ports:
+      - 80:8082
+      - 5055:5055
