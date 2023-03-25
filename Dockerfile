@@ -1,6 +1,9 @@
 FROM adoptopenjdk:11-jre-hotspot-focal
 
 ENV TRACCAR_VERSION 5.6
+ENV TZ=Asia/Shanghai
+EXPOSE 8082
+EXPOSE 5055
 
 WORKDIR /opt/traccar
 
